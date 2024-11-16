@@ -1,0 +1,29 @@
+.news-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    align-items: center;
+    overflow: auto;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    flex-basis: 50%; 
+    max-width: 50%; 
+    margin: 20px;
+    cursor: pointer;
+    box-sizing: border-box; 
+    
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    flex-basis: 50%; 
+    cursor: pointer;
+    box-sizing: border-box; 
+    margin-left: 1rem;
+}
