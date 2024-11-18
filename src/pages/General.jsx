@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Cards from "../components/card/Cards";
 import NewsDescCard from "../components/card/NewsDescCard";
 import { useContext, useRef, useCallback } from "react";
-import {NewsDescCardModal} from '../components/Modal'
+import NewsDescCardModal from '../components/Modal'
 import { ArticleContext } from '../ArticleContext'
 const API_KEY = "";
 import './general.css'
