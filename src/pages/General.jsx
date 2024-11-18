@@ -4,7 +4,7 @@ import NewsDescCard from "../components/card/NewsDescCard";
 import { useContext, useRef, useCallback } from "react";
 import {NewsDescCardModal} from '../components/Modal'
 import { ArticleContext } from '../ArticleContext'
-const API_KEY = "4445df134e34434086ad66d928a652d7";
+const API_KEY = "";
 import './general.css'
 
 const General = ({ category }) => {
